@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(202, 199, 199);
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  /* margin: 60px auto; */
+  display: flex;
+  align-items: center;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 18px;
+  padding-top: 10px;
+  border-bottom: 1px black solid;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* ------------------------------ CONTACT ------------------------ */
+.main {
+  /* background-color: crimson; */
+  width: 80vw;
+}
+.contactform h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 40px 0;
+}
+.contactform {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactform form div {
+  padding: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  margin: 6px 0;
+  padding: 3px;
+  outline: none;
+  border: 1px solid black;
+}
+
+#emailHelp {
+  color: purple;
+  font-size: 11px;
+  text-align: center;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check-input {
+  width: 24px;
+  margin: 3px;
+}
+.btn {
+  background-color: rgb(9, 235, 235);
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* -------- INFO ------------- */
+.infocontainer {
+  /* background-color: rgb(48, 231, 48); */
+  height: 100vh;
+  /* margin:  144px auto; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.devipic img {
+  height: 400px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+  border-radius: 10px;
+}
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.hello {
+  font-size: 50px;
+}
+.name {
+  font-size: 60px;
+  font-weight: bold;
+}
+.about {
+  font-size: 40px;
+}
+.moreabout {
+  font-size: 20px;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: springgreen;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: rgb(180, 132, 41);
+}
+
+.blogitem {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.blogitem h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: initial;
+}
+.blogitem h2 p {
+  font-family: "Times New Roman", Times, serif;
+}
+.btn1 {
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: peru;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+.btn1:hover {
+  background-color: palevioletred;
+  border: none;
+  cursor: pointer;
+}
+.intro h2 {
+  margin: 10px;
+}
+.devipic p {
+  margin: 10px;
+}
+.skillcontainer {
+  padding: 12px;
+}
+.skillItem {
+  display: flex;
+}
+.skill {
+  width: 260px;
+  height: 6px;
+  background-color: rgb(19, 235, 235);
+  border: 2px solid black;
+}
+.hundred {
+  width: 265px;
+  background-color: rgb(232, 240, 216);
+}
+.fifty {
+  width: 80px;
+  background-color: rgb(71, 181, 255);
+}
+.thirty {
+  width: 100px;
+  background-color: rgb(11, 189, 35);
+}
+.fourty {
+  width: 150px;
+  background-color: rgb(227, 255, 71);
+}
+.t5 {
+  width: 75px;
+  background-color: salmon;
+}
+.ten {
+  width: 50px;
+  background-color: rgb(120, 71, 255);
+}
+#sidebarGo {
+  /* translate: translate(-543px, 0px); */
+  /* position: absolute; */
+}
+.humburg {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.cross {
+  margin-left: 139px;
+}
